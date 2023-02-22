@@ -1,0 +1,52 @@
+{
+  "scenario": [
+    {
+      "scenario_name": "testng",
+      "scenario_time": "3",
+      "id": "1844cac1-61f1-49e7-b049-102e76f20ea6"
+    },
+    {
+      "scenario_name": "my test",
+      "scenario_time": "12",
+      "id": "80e49d9a-2298-4a22-82b7-6541df11c5b3"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "ee586c1a-942a-45cc-accc-495765128755",
+      "scenario": "testng",
+      "vehicle_name": "q",
+      "initial_position_X": "1",
+      "initial_position_Y": "1",
+      "speed": "1",
+      "direction": "Downwards"
+    },
+    {
+      "id": "dcbb9742-adc6-4c11-9289-60021c24b84c",
+      "scenario": "testng",
+      "vehicle_name": "car",
+      "initial_position_X": "100",
+      "initial_position_Y": "50",
+      "speed": "7",
+      "direction": "Towards"
+    },
+    {
+      "id": "6eca3ee7-b408-4957-86d5-3b29979c7e3c",
+      "scenario": "testng",
+      "vehicle_name": "bus",
+      "initial_position_X": "50",
+      "initial_position_Y": "150",
+      "speed": "19",
+      "direction": "Downwards"
+    },
+    {
+      "id": "6c763c97-d099-4225-9c6c-950102dba838",
+      "scenario": "my test",
+      "vehicle_name": "bus",
+      "initial_position_X": "140",
+      "initial_position_Y": "50",
+      "speed": "10",
+      "direction": "Upwards"
+    }
+  ]
+}

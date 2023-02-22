@@ -1,0 +1,26 @@
+.table {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    /* grid-gap: 1px; */
+    border: 1px solid rgb(4, 105, 83);
+    position: relative;
+    color:aliceblue
+  }
+  
+  .cell {
+    padding: 20px;
+    border: 1px solid rgb(2, 58, 46);
+    color:aqua;
+  }
+
+  .point {
+  height: 15px;
+  width: 15px;
+    border-radius: 50%;
+    /* background-color:white; */
+    text-align: center;
+    font-size:10px;
+    color:aqua;
+  }
+  
