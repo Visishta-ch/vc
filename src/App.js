@@ -6,6 +6,7 @@ import AddScenario from './components/Pages/Scenario/AddScenario';
 import AddVehicle from './components/Pages/Vehicle/AddVehicle';
 import EditVehicle from './components/Pages/Vehicle/EditVehicle';
 import EditScenario from './components/Pages/Scenario/EditScenario';
+import AddV from './components/Pages/Scenario/AddV';
  import Nav from './components/NavigationBar/Nav';
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </Route>
       <Route path="/add-vehicle">
         <AddVehicle/>
+      </Route>
+      <Route path="/addv">
+        <AddV />
       </Route>
       <Route path='/editVehicle/:id'>
       <EditVehicle />
